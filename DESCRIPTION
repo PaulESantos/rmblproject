@@ -1,5 +1,5 @@
 Package: rmblproject
-Title: RBML Cleaning Code
+Title: RBML Cleaning Processing Code
 Version: 0.0.0.1
 Authors@R: 
     person("Paul", "Santos", , "paulefrens@gmail.com", role = c("aut", "cre"),
@@ -15,3 +15,5 @@ RoxygenNote: 7.2.0
 Imports: 
     here,
     nls2
+URL: https://github.com/PaulESantos/rmblproject
+BugReports: https://github.com/PaulESantos/rmblproject/issues
