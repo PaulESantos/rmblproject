@@ -16,18 +16,21 @@ knitr::opts_chunk$set(
 # rmblproject
 
 <!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 [![CRAN status](https://www.r-pkg.org/badges/version/rmblproject)](https://CRAN.R-project.org/package=rmblproject)
+[![](http://cranlogs.r-pkg.org/badges/grand-total/rmblproject?color=green)](https://cran.r-project.org/package=rmblproject)
+[![](http://cranlogs.r-pkg.org/badges/last-week/rmblproject?color=green)](https://cran.r-project.org/package=rmblproject)
 <!-- badges: end -->
 
 The goal of rmblproject is to ...
 
 ## Installation
 
-You can install the development version of rmblproject like so:
+You can install the development version of rmblproject from [GitHub](https://github.com/) with:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("pak")
+pak::pkg_install("PaulESantos/rmblproject")
 ```
 
 ## Example
@@ -35,7 +38,7 @@ You can install the development version of rmblproject like so:
 This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
-library(rmblproject)
+#library(rmblproject)
 ## basic example code
 ```
 
